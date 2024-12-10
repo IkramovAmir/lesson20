@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char word[20];
-    int count;
+    int count = 0;
     
     printf("Enter information: ");
     fgets(word,sizeof(word), stdin);
