@@ -22,12 +22,12 @@ int checkNum(char info[])
 }
 int main()
 {
-    char word[50];
+    char text[50];
 
     printf("Enter information: ");
-    fgets(word, sizeof(word), stdin);
+    fgets(text, sizeof(text), stdin);
 
-    int countingDigit = checkNum(word);
+    int countingDigit = checkNum(text);
     printf("%d", countingDigit);
 
     return 0;
